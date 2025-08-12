@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
               <img
-                src="/images/req-logo-white.png"
+                src="/images/req-logo.png"
                 alt="REQ Consulting"
                 className="h-20 w-auto rounded-lg border-4 border-transparent bg-gradient-to-r from-emerald-600 to-navy-900 p-1"
                 style={{
