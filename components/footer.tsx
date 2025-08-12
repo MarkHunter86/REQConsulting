@@ -9,9 +9,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
-              <span className="text-2xl font-bold">
-                REQ<span className="text-emerald-400"> Consulting</span>
-              </span>
+              <img
+                src="/images/req-logo.png"
+                alt="REQ Consulting - We are the key to success"
+                className="h-20 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Strategic business consulting solutions that drive growth, optimize operations, and transform

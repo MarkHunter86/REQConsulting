@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowRight, CheckCircle, Users, TrendingUp, Award } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import ContactForm from "@/components/contact-form"
 
 export default function HomePage() {
   return (
@@ -20,9 +21,11 @@ export default function HomePage() {
                 accelerate growth and optimize performance.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
-                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                <ContactForm>
+                  <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
+                    Contact Us <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </ContactForm>
                 <Button
                   size="lg"
                   variant="outline"
@@ -125,7 +128,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Why Choose REQ-Consulting?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Why Choose REQ Consulting?</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-emerald-600 mr-3 mt-1" />
@@ -171,9 +174,11 @@ export default function HomePage() {
           <p className="text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
             Let's discuss how our strategic consulting services can drive your business forward.
           </p>
-          <Button size="lg" className="bg-white text-emerald-600 hover:bg-gray-100">
-            Schedule a Consultation
-          </Button>
+          <ContactForm>
+            <Button size="lg" className="bg-white text-emerald-600 hover:bg-gray-100">
+              Schedule a Consultation
+            </Button>
+          </ContactForm>
         </div>
       </section>
     </div>
