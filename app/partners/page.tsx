@@ -23,7 +23,7 @@ export default function PartnersPage() {
             <div>
               <h2 className="text-3xl font-bold text-navy-900 mb-6">Partnership Philosophy</h2>
               <p className="text-gray-600 mb-4">
-                At REQ-Consulting, we believe that strategic partnerships are essential to delivering comprehensive
+                At REQ Consulting, we believe that strategic partnerships are essential to delivering comprehensive
                 solutions that meet our clients' diverse needs. Our carefully selected partners share our commitment to
                 excellence, innovation, and client success.
               </p>
@@ -93,52 +93,35 @@ export default function PartnersPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-navy-900 mb-4">Featured Partners</h2>
-            <p className="text-xl text-gray-600">Trusted collaborators in delivering excellence</p>
+            <h2 className="text-3xl font-bold text-navy-900 mb-4">Featured Partner</h2>
+            <p className="text-xl text-gray-600">Trusted collaborator in delivering excellence</p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="Microsoft"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="Salesforce"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="AWS"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="Google Cloud"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="IBM"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div className="text-center">
-              <img
-                src="/placeholder.svg?height=100&width=150"
-                alt="Oracle"
-                className="h-16 mx-auto mb-2 opacity-60 hover:opacity-100 transition-opacity"
-              />
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-gray-50 rounded-lg p-8 text-center">
+              <div className="mb-6">
+                <img
+                  src="/images/patrice-associates-logo.png"
+                  alt="Patrice & Associates"
+                  className="h-24 mx-auto mb-4"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-navy-900 mb-4">Patrice & Associates</h3>
+              <p className="text-lg text-gray-600 mb-6">
+                Leading recruiting specialists based in East Boston, providing comprehensive talent acquisition
+                solutions and workforce consulting services. Our partnership with Patrice & Associates enables us to
+                deliver exceptional human capital strategies that align with our clients' organizational goals.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://www.patriceandassociates.com/east-boston-02141/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
+                >
+                  Visit Partner Website
+                </a>
+              </div>
             </div>
           </div>
         </div>

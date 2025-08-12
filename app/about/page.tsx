@@ -8,7 +8,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-navy-900 to-emerald-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About REQ-Consulting</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About REQ Consulting</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Empowering businesses with strategic insights and innovative solutions for over 15 years
             </p>
@@ -23,17 +23,22 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-navy-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2009, REQ-Consulting emerged from a vision to bridge the gap between strategic thinking and
-                practical implementation. Our founders, seasoned executives from Fortune 500 companies, recognized the
-                need for consulting services that deliver tangible results.
+                REQ Consulting was founded with a simple yet powerful mission: to help businesses unlock their full
+                potential through strategic consulting and innovative solutions. Our team of experienced professionals
+                brings together decades of expertise across various industries, enabling us to provide comprehensive
+                guidance that drives real results.
               </p>
               <p className="text-gray-600 mb-4">
-                Over the years, we've evolved into a trusted partner for businesses across various industries, helping
-                them navigate complex challenges and capitalize on emerging opportunities.
+                We understand that every business faces unique challenges, which is why we take a personalized approach
+                to consulting. From strategic planning and operational optimization to digital transformation and
+                organizational development, we work closely with our clients to identify opportunities, overcome
+                obstacles, and achieve sustainable growth.
               </p>
               <p className="text-gray-600">
-                Today, we continue to uphold our commitment to excellence, innovation, and client success, making us a
-                preferred choice for strategic business consulting.
+                At REQ Consulting, we believe that success is not just about implementing solutions—it's about building
+                lasting partnerships that evolve with your business needs. Our commitment to excellence, integrity, and
+                innovation has made us a trusted advisor to organizations of all sizes, helping them navigate complex
+                business landscapes and emerge stronger than ever.
               </p>
             </div>
             <div>
@@ -108,13 +113,14 @@ export default function AboutPage() {
               <CardContent className="p-8">
                 <img
                   src="/placeholder.svg?height=200&width=200"
-                  alt="CEO"
+                  alt="Greg Ehlers"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold text-navy-900 mb-2">Sarah Johnson</h3>
+                <h3 className="text-xl font-semibold text-navy-900 mb-2">Greg Ehlers</h3>
                 <p className="text-emerald-600 font-medium mb-3">Chief Executive Officer</p>
                 <p className="text-gray-600 text-sm">
-                  20+ years in strategic consulting with expertise in digital transformation and organizational change.
+                  Seasoned executive with extensive experience in strategic leadership and business transformation
+                  across multiple industries.
                 </p>
               </CardContent>
             </Card>
@@ -122,14 +128,15 @@ export default function AboutPage() {
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
-                  alt="COO"
+                  src="/images/alex-pomponio.webp"
+                  alt="Alex Pomponio"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold text-navy-900 mb-2">Michael Chen</h3>
-                <p className="text-emerald-600 font-medium mb-3">Chief Operating Officer</p>
+                <h3 className="text-xl font-semibold text-navy-900 mb-2">Alex Pomponio</h3>
+                <p className="text-emerald-600 font-medium mb-3">Managing Member</p>
                 <p className="text-gray-600 text-sm">
-                  Former McKinsey partner with deep expertise in operations optimization and process improvement.
+                  Strategic operations leader with extensive experience in business transformation and process
+                  optimization across multiple industries.
                 </p>
               </CardContent>
             </Card>
@@ -137,14 +144,15 @@ export default function AboutPage() {
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <img
-                  src="/placeholder.svg?height=200&width=200"
-                  alt="CTO"
+                  src="/images/jackie-harrison.webp"
+                  alt="Jackie Harrison"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold text-navy-900 mb-2">Emily Rodriguez</h3>
+                <h3 className="text-xl font-semibold text-navy-900 mb-2">Jackie Harrison</h3>
                 <p className="text-emerald-600 font-medium mb-3">Chief Technology Officer</p>
                 <p className="text-gray-600 text-sm">
-                  Technology strategist with 15+ years helping organizations leverage digital solutions for growth.
+                  Technology strategist and innovation leader with deep expertise in digital transformation and emerging
+                  technologies.
                 </p>
               </CardContent>
             </Card>
@@ -157,8 +165,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
           <p className="text-xl text-emerald-100 max-w-4xl mx-auto">
-            To empower businesses with strategic insights, innovative solutions, and actionable strategies that drive
-            sustainable growth and create lasting competitive advantages in an ever-evolving marketplace.
+            To empower businesses with strategic insights, innovative solutions, and expert guidance that drive
+            sustainable growth, operational excellence, and competitive advantage in today's dynamic marketplace.
           </p>
         </div>
       </section>

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
               <span className="text-2xl font-bold">
-                REQ<span className="text-emerald-400">-Consulting</span>
+                REQ<span className="text-emerald-400"> Consulting</span>
               </span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 REQ-Consulting. All rights reserved.</p>
+          <p className="text-gray-400">© 2024 REQ Consulting. All rights reserved.</p>
         </div>
       </div>
     </footer>

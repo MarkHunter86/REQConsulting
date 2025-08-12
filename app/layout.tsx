@@ -8,9 +8,9 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "REQ-Consulting - Strategic Business Solutions",
+  title: "REQ Consulting - Strategic Business Solutions",
   description: "Professional consulting services to drive your business forward",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
