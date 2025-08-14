@@ -20,19 +20,23 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white shadow-lg sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-24">
-          <div className="flex items-center">
+        <div className="flex justify-between h-20">
+          {/* Logo in Upper Left Corner */}
+          <div className="absolute top-4 left-4 z-50">
             <Link href="/" className="flex-shrink-0">
               <img
                 src="/images/req-logo.png"
                 alt="REQ Consulting"
-                className="h-20 w-auto rounded-lg border-4 border-transparent bg-gradient-to-r from-emerald-600 to-navy-900 p-1"
+                className="w-auto"
                 style={{
+                  height: "140px",
                   background: "linear-gradient(to right, #059669, #0f172a)",
-                  borderRadius: "0.5rem",
-                  padding: "4px",
+                  borderRadius: "1rem",
+                  padding: "6px",
+                  border: "6px solid transparent",
+                  backgroundClip: "padding-box",
                 }}
                 onError={(e) => {
                   e.currentTarget.src = "/images/req-logo.png"
@@ -40,6 +44,8 @@ export default function Navbar() {
               />
             </Link>
           </div>
+
+          <div className="flex items-center">{/* Empty space where logo was */}</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

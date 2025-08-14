@@ -42,7 +42,11 @@ export default function AboutPage() {
               </p>
             </div>
             <div>
-              <img src="/placeholder.svg?height=400&width=500" alt="Our team" className="rounded-lg shadow-lg" />
+              <img
+                src="/images/business-consultation.png"
+                alt="Professional business consultation"
+                className="rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>

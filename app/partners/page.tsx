@@ -37,7 +37,11 @@ export default function PartnersPage() {
               </p>
             </div>
             <div>
-              <img src="/placeholder.svg?height=400&width=500" alt="Partnership" className="rounded-lg shadow-lg" />
+              <img
+                src="/images/partnership-key.png"
+                alt="Hand offering golden key - symbolizing valuable partnerships and collaboration"
+                className="rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>

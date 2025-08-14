@@ -37,8 +37,8 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <img
-                src="/placeholder.svg?height=500&width=600"
-                alt="Business consulting"
+                src="/images/potential-key.png"
+                alt="Hand holding golden key with 'POTENTIAL' text - unlocking business potential"
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -123,8 +123,48 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Digital Transformation Section */}
       <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src="/images/holographic-city.png"
+                alt="Digital transformation and innovation"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Digital Transformation Excellence</h2>
+              <p className="text-gray-600 mb-6">
+                Navigate the digital landscape with confidence. Our comprehensive digital transformation services help
+                organizations leverage cutting-edge technologies to drive innovation, improve efficiency, and create
+                competitive advantages in today's rapidly evolving business environment.
+              </p>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
+                  <span className="text-gray-700">Technology Strategy & Implementation</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
+                  <span className="text-gray-700">Process Automation & AI Integration</span>
+                </div>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 text-emerald-600 mr-3" />
+                  <span className="text-gray-700">Digital Culture Development</span>
+                </div>
+              </div>
+              <Link href="/services" className="text-emerald-600 hover:text-emerald-700 font-medium">
+                Explore Digital Services →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -161,7 +201,35 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <img src="/placeholder.svg?height=400&width=500" alt="Business growth" className="rounded-lg shadow-lg" />
+              <img src="/images/puzzle-key.png" alt="Strategic problem solving" className="rounded-lg shadow-lg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Opportunity Section */}
+      <section className="py-20 bg-navy-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src="/images/keyhole-opportunity.png"
+                alt="Unlocking new opportunities"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Unlock Your Business Potential</h2>
+              <p className="text-xl text-gray-300 mb-8">
+                Every challenge is an opportunity in disguise. Our expert consultants help you identify hidden
+                opportunities, overcome obstacles, and unlock your organization's full potential for sustainable growth
+                and success.
+              </p>
+              <ContactForm>
+                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700">
+                  Discover Opportunities <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </ContactForm>
             </div>
           </div>
         </div>

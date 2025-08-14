@@ -81,8 +81,8 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="Featured article"
+                src="/images/insights-key.png"
+                alt="Hands holding golden key above digital documents with data visualizations - unlocking business insights"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>
